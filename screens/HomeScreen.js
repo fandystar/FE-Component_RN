@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextInput,View, StyleSheet } from "react-native";
+import { View} from "react-native";
 import {data} from '../constans/general'   // import operation data
 import FlatListComponent from '../components/FlatListComponent'
 import TextInputComponent from '../components/TextInputComponent'  
@@ -9,8 +9,8 @@ const {log}=console
 const HomeScreen = (props) => {
     
     const [id,setId] = useState('')
-    const [value1,setValue1] = useState(0)  // value of textinput 1
-    const [value2,setValue2] = useState(0)  // value of textinput 2
+    const [input1,setinput1] = useState(0)  // value of textinput 1
+    const [input2,setinput2] = useState(0)  // value of textinput 2
    
     let width = (id===2 || id===3) ? 0 : '100%'   // visibility of  textinput2 ( the second number )
     let height = (id===2 || id===3) ? 0 : 50      // visibility of  textinput2 (the second number )
@@ -20,8 +20,8 @@ const HomeScreen = (props) => {
         <View  style={{margin:'5%'}}> 
             <View style={{marginTop:'10%'}}>                     
                  <FlatListComponent data={data} callback={(id)=>{    //  render  operation button
-                        setValue1(0)
-                        setValue2(0)
+                        setinput1(0)
+                        setinput2(0)
                         setId(id)
                      }} />
             </View>
@@ -37,7 +37,7 @@ const HomeScreen = (props) => {
                           alert('masukan angka  0 - 9')
                           input= input.slice(0,input.length-1)
                         } 
-                        setValue1(+input)
+                        setinput1(+input)
                       }}
                     
                     />
@@ -47,7 +47,7 @@ const HomeScreen = (props) => {
                     height={height}
                     backgroundColor ={'#dff9fb'}
                     onChangeText={(input)=>{
-                        setValue2(+input)
+                        setinput2(+input)
                       }}
                     />
                 <TextInputComponent
@@ -59,8 +59,8 @@ const HomeScreen = (props) => {
                     padding={0}
                     height={50}
                     backgroundColor={'#F8EFBA'} >
-                        {(value1 && value2 && id===0) ?  sum(value1,value2) : (value1 && value2 && id===1)? multiply(value1,value2) : (value1 && id===2)? prime(value1) :(value1 && id===3)? fibonacci(value1) : 'Result' }
-                        </TextInputComponent>
+                {(input1 && input2 && id===0) ?  sum(input1,input2) : (input1 && input2 && id===1)? multiply(input1,input2) : (input1 && id===2)? prime(input1) :(input1 && id===3)? fibonacci(input1) : 'Result' }
+                </TextInputComponent>
             </View>
             
             
