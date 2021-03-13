@@ -1,15 +1,22 @@
-import React from 'react'
-import { Text,Image,View, TextInput ,StyleSheet} from 'react-native'
-import { TouchableOpacity } from 'react-native-gesture-handler';
+
+import React, { useState } from "react";
+import { View, TextInput ,StyleSheet} from 'react-native'
+import { baseProps } from "react-native-gesture-handler/lib/typescript/handlers/gestureHandlers";
+
+
+const {log}=console
 
 const TextInputComponent = (props) => {
-    
-   
+    //let backgroundColor
+    let width=props.width 
+    let height=props.height 
+    let backgroundColor=props.backgroundColor  
+    //let  backgroundColor = props.backgroundColor!=='' ? props.backgroundColor : '#dff9fb' 
     return (
         <View > 
             <TextInput 
                 {...props}
-                style = {[styles.textInput]}
+                style = {[styles.textInput,{height,width,backgroundColor}]}
                 
             />
         </View>
@@ -18,9 +25,11 @@ const TextInputComponent = (props) => {
 const styles = StyleSheet.create (
     {
         textInput : {
+           
+            fontSize:16,
             color : 'black',
-            borderBottomWidth :1,
-            backgroundColor : '#dff9fb',
+            padding:0,
+            
         }
     }
 )

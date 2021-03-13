@@ -20,8 +20,7 @@ const FlatListComponent = (props) => {
                     caption={item.title}
                     OnPress={() => {
                         setSelectedId(item.id)
-                        alert(item.id)
-                        //props.navigation.navigate('Home',{id :item.id})
+                        props.callback(item.id)
                                              
                       }
                     }

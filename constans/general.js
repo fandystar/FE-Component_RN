@@ -1,30 +1,26 @@
 
 
-const operation = [
+const data = [
     {
-      id: 1,
+      id: 0,
       title: 'Sum of two numbers',
-      placeHolder :['Input first number for Summation','Input second number for Summation']
+      placeHolder :['Input first number for Summation','Input second number for Summation','Result']
     },
-    {  id: 2,
+    {  id: 1,
       title: 'Multiply of two numbers',
-      placeHolder:['Input first number for Multiplication','Input second number for Multiplication']
+      placeHolder:['Input first number for Multiplication','Input second number for Multiplication','Result']
     },
     {
-      id: 3,
+      id: 2,
       title: 'First N Prime numbers',
-      placeHolder:['Input positive number(N) for first N prime numbers']
+      placeHolder:['Input positive number(N) for first N prime numbers','Result','Result']
     },
-    { id: 4,
+    { id: 3,
       title: 'First N Fibonacci sequence',
-      placeHolder:['nput positive number(N) for first N Fibonacci sequence']
+      placeHolder:['Input positive number(N) for first N Fibonacci sequence','Result','Result']
 
     }
   
   ]
 
-
-
-
-
-  module.exports={operation}
+  module.exports={data}

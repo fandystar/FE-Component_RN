@@ -22,7 +22,6 @@ const styles = StyleSheet.create(
          cssTouchableOpacity : {
             borderRadius:12,
             padding:20,
-            marginHorizontal:8,
             marginVertical:4,
                       
          },
