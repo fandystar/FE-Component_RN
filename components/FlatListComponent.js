@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { FlatList, View, StatusBar, StyleSheet, Text, TouchableOpacity } from "react-native";
-import { greaterOrEq } from "react-native-reanimated";
+import { FlatList } from "react-native";
 import TouchableOpacityComponent from './TouchableOpacityComponent'
 
 const {log} =console
-
 
 const FlatListComponent = (props) => {
   const [selectedId, setSelectedId] = useState(null)

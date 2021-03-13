@@ -33,7 +33,7 @@ const HomeScreen = (props) => {
                     backgroundColor ={'#dff9fb'}  
                     onChangeText={(input)=>{
                         if(/[^0-9]/.test(input) && (id===2 || id===3 )) { // check if not a digit
-                          alert('masukan angka  0 - 9')
+                          alert('Provide number 0 - 9')
                           input= input.slice(0,input.length-1)
                         } 
                         setinput1(+input)
