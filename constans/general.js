@@ -13,11 +13,11 @@ const data = [
     {
       id: 2,
       title: 'First N Prime numbers',
-      placeHolder:['Input positive number(N) for first N prime numbers','Result','Result']
+      placeHolder:['Input positive number, first N prime numbers','Result','Result']
     },
     { id: 3,
       title: 'First N Fibonacci sequence',
-      placeHolder:['Input positive number(N) for first N Fibonacci sequence','Result','Result']
+      placeHolder:['Input positive number, first N Fibonacci sequence','Result','Result']
 
     }
   

@@ -10,12 +10,15 @@ const TextInputComponent = (props) => {
     //let backgroundColor
     let width=props.width 
     let height=props.height 
-    let backgroundColor=props.backgroundColor  
+    let backgroundColor=props.backgroundColor
+    //let color=props.color  
     //let  backgroundColor = props.backgroundColor!=='' ? props.backgroundColor : '#dff9fb' 
     return (
         <View > 
             <TextInput 
                 {...props}
+                onChangeText={props.onChangeText}
+                keyboardType='numeric'
                 style = {[styles.textInput,{height,width,backgroundColor}]}
                 
             />
