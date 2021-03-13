@@ -12,14 +12,13 @@ const HomeScreen = (props) => {
     const [input1,setinput1] = useState(0)  // value of textinput 1
     const [input2,setinput2] = useState(0)  // value of textinput 2
    
-    let width = (id===2 || id===3) ? 0 : '100%'   // visibility of  textinput2 ( the second number )
-    let height = (id===2 || id===3) ? 0 : 50      // visibility of  textinput2 (the second number )
-
+    let width = (id===2 || id===3) ? 0 : '100%'   // width & height visibility of  textinput2 ( the second number ) = make textinput2 disappear
+    let height = (id===2 || id===3) ? 0 : 50      
    
     return (
         <View  style={{margin:'5%'}}> 
             <View style={{marginTop:'10%'}}>                     
-                 <FlatListComponent data={data} callback={(id)=>{    //  render  operation button
+                 <FlatListComponent data={data} callback={(id)=>{    //  render operation button ( sum ,multiply,prime & fibonacci)
                         setinput1(0)
                         setinput2(0)
                         setId(id)
@@ -28,7 +27,7 @@ const HomeScreen = (props) => {
             
             <View style={{marginTop:'7%'}}>            
                 <TextInputComponent
-                    placeholder={id!==''? data[id].placeHolder[0] : 'input'} // setting textinput1 ( first number or first N prime or N fibonacci )
+                    placeholder={id!==''? data[id].placeHolder[0] : 'Input'} // setting textinput1 ( first number or first N prime or N fibonacci )
                     width={'100%'}
                     height={50}
                     backgroundColor ={'#dff9fb'}  
@@ -42,7 +41,7 @@ const HomeScreen = (props) => {
                     
                     />
                 <TextInputComponent 
-                    placeholder={id!==''?  data[id].placeHolder[1] : 'input'} // setting textinput2 ( second number )
+                    placeholder={id!==''?  data[id].placeHolder[1] : 'Input'} // setting textinput2 ( second number )
                     width={width}
                     height={height}
                     backgroundColor ={'#dff9fb'}
@@ -51,7 +50,7 @@ const HomeScreen = (props) => {
                       }}
                     />
                 <TextInputComponent
-                    placeholder={id!==''? data[id].placeHolder[2] : 'input'} // setting textinput3 ( result )
+                    placeholder={id!==''? data[id].placeHolder[2] : 'Result'} // setting textinput3 ( result )
                     multiline 
                     editable={false}
                     width={'100%'}
