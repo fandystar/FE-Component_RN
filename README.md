@@ -1,4 +1,4 @@
-[![GitHub last commit](https://img.shields.io/github/last-commit/fandystar/Basic technical test-NodeJs?logo=github)](https://github.com/fandystar/)  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fandystar/Basic technical test-NodeJs?logo=github&color=teal)](https://github.com/fandystar/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/fandystar/?logo=github)](https://github.com/fandystar/)  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fandystar technical test-NodeJs?logo=github&color=teal)](https://github.com/fandystar/)
 
 # About Problem
 
