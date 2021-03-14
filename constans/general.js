@@ -3,11 +3,11 @@
 const data = [
     {
       id: 0,
-      title: '+',
+      title: 'Sum',
       placeHolder :['Input first number','Input second number','Result of Sum']
     },
     {  id: 1,
-      title: 'x',
+      title: 'Multiply',
       placeHolder:['Input first number','Input second number','Result of Multiply']
     },
     {

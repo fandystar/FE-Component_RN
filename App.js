@@ -9,12 +9,9 @@ const {log}=console
 const HomeScreen = (props) => {
     
     const [id,setId] = useState('')
-    const [input1,setinput1] = useState(0)  // value of textinput 1
-    const [input2,setinput2] = useState(0)  // value of textinput 2
-   
-   // let width = (id===2 || id===3) ? 0 : '100%'  
-   // let height = (id===2 || id===3) ? 0 : 50      
-   
+    const [input1,setinput1] = useState(0)  // set value of first number or result
+    const [input2,setinput2] = useState(0)  // set value of second number
+  
     return (
         <View  style={{margin:'5%'}}> 
            
@@ -22,7 +19,7 @@ const HomeScreen = (props) => {
             <View style={{marginTop:'15%'}}>            
                 
                 <TextInputComponent
-                    placeholder={id!==''? data[id].placeHolder[2] : 'Result'} // setting textinput3 ( result )
+                    placeholder={id!==''? data[id].placeHolder[2] : 'Result'} //  textinput3 ( result ) setting
                     multiline 
                     editable={false}
                     width={'100%'}
@@ -34,7 +31,7 @@ const HomeScreen = (props) => {
                 </TextInputComponent>
                 
                 <TextInputComponent
-                    placeholder={id!==''? data[id].placeHolder[0] : 'Input'} // setting textinput1 ( first number or first N prime or N fibonacci )
+                    placeholder={id!==''? data[id].placeHolder[0] : 'Input'} // textinput1 ( first number or first N prime or N fibonacci ) setting
                     width={'100%'}
                     height={50}
                     backgroundColor ={'#dff9fb'}  
@@ -49,7 +46,7 @@ const HomeScreen = (props) => {
                     />
                 
                 <TextInputComponent 
-                    placeholder={id!==''?  data[id].placeHolder[1] : 'Input'} // setting textinput2 ( second number )
+                    placeholder={id!==''?  data[id].placeHolder[1] : 'Input'} // textinput2 ( second number ) setting
                     width={(id===2 || id===3) ? 0 : '100%'}                   //  width & height visibility of  textinput2 ( the second number ) = make textinput2 disappear
                     height={height = (id===2 || id===3) ? 0 : 50 }
                     backgroundColor ={'#dff9fb'}
@@ -59,6 +56,7 @@ const HomeScreen = (props) => {
                     />
               
             </View>
+            
             <View style={{marginTop:'0%'}}>                     
                  <FlatListComponent data={data} callback={(id)=>{    //  render operation button ( sum ,multiply,prime & fibonacci)
                         setinput1(0)
