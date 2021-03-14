@@ -28,6 +28,8 @@ To **design a solution** with ability to :
 
 - Find first N Fibonacci sequence
 
+![printPrime](https://user-images.githubusercontent.com/67256405/111074962-26b46d00-8518-11eb-9046-b7c67d428910.png)
+
 ## Pre requisites
 
 The source code for this project is written using [React Native](https://reactnative.dev/). Make sure you installed on your computer before running this application, **if not please install react native from [here](https://reactnative.dev/docs/environment-setup)**.
