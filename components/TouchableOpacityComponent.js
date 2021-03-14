@@ -23,11 +23,11 @@ const styles = StyleSheet.create(
             borderWidth:1,
             borderRadius:0,
             padding:20,
-            width:182       
+            width:185       
          },
         cssText : {
             color :'white',
-            fontSize: 35,
+            fontSize: 40,
             textAlign:'center'
         }               
     }

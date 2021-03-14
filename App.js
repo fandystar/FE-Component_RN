@@ -34,6 +34,7 @@ const HomeScreen = (props) => {
                     placeholder={id!==''? data[id].placeHolder[0] : 'Input'} // textinput1 ( first number or first N prime or N fibonacci ) setting
                     width={'100%'}
                     height={50}
+                    maxLength={(id===2 || id===3) ? 3 : 20}
                     backgroundColor ={'#dff9fb'}  
                     onChangeText={(input)=>{
                         if(/[^0-9]/.test(input) && (id===2 || id===3 )) { // check if not a digit
@@ -48,6 +49,7 @@ const HomeScreen = (props) => {
                 <TextInputComponent 
                     placeholder={id!==''?  data[id].placeHolder[1] : 'Input'} // textinput2 ( second number ) setting
                     width={(id===2 || id===3) ? 0 : '100%'}                   //  width & height visibility of  textinput2 ( the second number ) = make textinput2 disappear
+                    maxLength={20}
                     height={height = (id===2 || id===3) ? 0 : 50 }
                     backgroundColor ={'#dff9fb'}
                     onChangeText={(input)=>{
