@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View} from "react-native";
-import {data} from './constans/general'                          // import operation data
+import {data} from './constans/general'                          // import data ( title & placeholder description )
 import FlatListComponent from './components/FlatListComponent'
 import TextInputComponent from './components/TextInputComponent'  
 import {prime,fibonacci,sum,multiply} from './utils/helper'      // import operation function
