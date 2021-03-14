@@ -120,14 +120,14 @@ You can see the code-coverage report in terminal as well as detailed HTML report
 Go to `coverage/lcov-report` folder and open `index.html`.
 
 
-## 5. Dependencies Used
+## 4. Dependencies Used
 
 - [Jest](https://jestjs.io/): A JavaScript test framework for Node.js programs. Learn more [here](https://jestjs.io/).
 
 
 
 
-## 6. Cheat Sheet
+## 5. Cheat Sheet
 
 Navigates to the root folder,
 
