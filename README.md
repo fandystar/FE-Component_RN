@@ -16,6 +16,9 @@
         Output : 0, 1, 1, 2 
 
 
+![printPrime](https://user-images.githubusercontent.com/67256405/111074962-26b46d00-8518-11eb-9046-b7c67d428910.png)![startFibonacci](https://user-images.githubusercontent.com/67256405/111075056-ba863900-8518-11eb-8eb1-fc3686ca898e.png)
+
+
 ## Basic technical test 
 
 To **design a solution** with ability to :
@@ -28,7 +31,6 @@ To **design a solution** with ability to :
 
 - Find first N Fibonacci sequence
 
-![printPrime](https://user-images.githubusercontent.com/67256405/111074962-26b46d00-8518-11eb-9046-b7c67d428910.png)
 
 ## Pre requisites
 
