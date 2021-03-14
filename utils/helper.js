@@ -1,14 +1,14 @@
 
 
-const sum=(x,y)=>x+y       // penjumlahan 2 angka
+const sum=(x,y)=>x+y       // sum of 2 numbers
 
-const multiply=(x,y)=>x*y  // perkalian 2 angka
+const multiply=(x,y)=>x*y  // multiply of 2 numbers
 
 let fn_2=0
 let fn_1=1
 let fn= 1
 let string1 = '' 
-const fibonacci=(n)=>{     //  n bilangan fibonacci pertama
+const fibonacci=(n)=>{     // first n Fibonacci sequence
     //if (n<=0) {throw new Error('please input the positive number ( minimun is 1 )')}
     let temp= ''
     if (n==0) { 
@@ -34,8 +34,8 @@ const isPrime = (x) => {
     return true
 }  
 
-const prime = n => {        //  n bilangan prima pertama
-      //if (n<=0) {throw new Error('please input the positive number ( minimun is 1 )')}
+const prime = n => {        //  first n pirme numbers
+        //if (n<=0) {throw new Error('please input the positive number ( minimun is 1 )')}
       const arr = []
       let i = 2
       while(arr.length < n){

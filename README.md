@@ -93,6 +93,22 @@ The current code coverage for the tests are following:
 | Function  | 75  |
 | Lines  | 84.29  |
 
+-------------------------------|---------|----------|---------|---------|-------------------
+File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------------------|---------|----------|---------|---------|-------------------
+All files                      |   84.93 |    57.63 |      75 |   84.29 |                   
+ FE_Okadoc_RN                  |   43.75 |    51.06 |      40 |   43.75 |                   
+  App.js                       |   43.75 |    51.06 |      40 |   43.75 | 42-70             
+ FE_Okadoc_RN/components       |   89.47 |       50 |   83.33 |   89.47 |                   
+  FlatListComponent.js         |      75 |       50 |      75 |      75 | 21-22             
+  TextInputComponent.js        |     100 |      100 |     100 |     100 |                   
+  TouchableOpacityComponent.js |     100 |       50 |     100 |     100 | 7                 
+ FE_Okadoc_RN/constans         |     100 |      100 |     100 |     100 |                   
+  general.js                   |     100 |      100 |     100 |     100 |                   
+ FE_Okadoc_RN/utils            |     100 |      100 |     100 |     100 |                   
+  helper.js                    |     100 |      100 |     100 |     100 |                   
+-------------------------------|---------|----------|---------|---------|-------------------
+
 - **Function coverage:** Has each function (or subroutine) in the program been called?
 - **Statement coverage:** Has each statement in the program been executed?
 - **Branch coverage:** Has each branch (also called DD-path) of each control structure (such as in if and case statements) been executed?
