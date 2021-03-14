@@ -13,7 +13,7 @@ const data = [
     {
       id: 2,
       title: 'Prime',
-      placeHolder:['Input positive number (N)', '','Result of first N Prime numbers']
+      placeHolder:['Input positive number (N)', '','Result of first N prime numbers']
     },
     { id: 3,
       title: 'Fibo',
