@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { View} from "react-native";
-import {data} from './constans/general'   // import operation data
+import {data} from './constans/general'                          // import operation data
 import FlatListComponent from './components/FlatListComponent'
 import TextInputComponent from './components/TextInputComponent'  
-import {prime,fibonacci,sum,multiply} from './utils/helper'   // import operation function
+import {prime,fibonacci,sum,multiply} from './utils/helper'      // import operation function
 
 const {log}=console
 const HomeScreen = (props) => {
@@ -34,10 +34,10 @@ const HomeScreen = (props) => {
                     placeholder={id!==''? data[id].placeHolder[0] : 'Input'} // textinput1 ( first number or first N prime or N fibonacci ) setting
                     width={'100%'}
                     height={50}
-                    maxLength={(id===2 || id===3) ? 3 : 20}
+                    maxLength={(id===2 || id===3) ? 3 : 20}                 // maximal 20 digits or 3 digis for Prime & Fibonacci
                     backgroundColor ={'#dff9fb'}  
                     onChangeText={(input)=>{
-                        if(/[^0-9]/.test(input) && (id===2 || id===3 )) { // check if not a digit
+                        if(/[^0-9]/.test(input) && (id===2 || id===3 )) {   // check if not a digit
                           alert('Provide number 0 - 9')
                           input= input.slice(0,input.length-1)
                         } 
@@ -49,7 +49,7 @@ const HomeScreen = (props) => {
                 <TextInputComponent 
                     placeholder={id!==''?  data[id].placeHolder[1] : 'Input'} // textinput2 ( second number ) setting
                     width={(id===2 || id===3) ? 0 : '100%'}                   //  width & height visibility of  textinput2 ( the second number ) = make textinput2 disappear
-                    maxLength={20}
+                    maxLength={20}                                            // maximal 20 digits
                     height={height = (id===2 || id===3) ? 0 : 50 }
                     backgroundColor ={'#dff9fb'}
                     onChangeText={(input)=>{
