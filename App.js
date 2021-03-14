@@ -23,7 +23,7 @@ const HomeScreen = (props) => {
                     multiline 
                     editable={false}
                     width={'100%'}
-                    height={height = (id===2 || id===3) ? 100 : 60}
+                    height={height = (id===2 || id===3) ? 120 : 60}
                     textAlignVertical={'top'}
                     padding={0}
                     backgroundColor={'#F8EFBA'} >
@@ -34,7 +34,7 @@ const HomeScreen = (props) => {
                     placeholder={id!==''? data[id].placeHolder[0] : 'Input'} // textinput1 ( first number or first N prime or N fibonacci ) setting
                     width={'100%'}
                     height={60}
-                    maxLength={(id===2 || id===3) ? 3 : 20}                 // maximal 20 digits or 3 digis for Prime & Fibonacci
+                    maxLength={(id===2 || id===3) ? 3 : 20}                 // maximal 20 digits except 3 digis for Prime & Fibonacci
                     backgroundColor ={'#dff9fb'}  
                     onChangeText={(input)=>{
                         if(/[^0-9]/.test(input) && (id===2 || id===3 )) {   // check if not a psitive digit 
