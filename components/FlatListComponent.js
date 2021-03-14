@@ -10,6 +10,7 @@ const FlatListComponent = (props) => {
   
   return (
       <FlatList
+        numColumns ={2}
         data={props.data}
         keyExtractor={item => item.id}
         renderItem= { ({item}) =>

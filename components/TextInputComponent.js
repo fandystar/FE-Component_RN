@@ -26,9 +26,10 @@ const TextInputComponent = (props) => {
 const styles = StyleSheet.create (
     {
         textInput : {
-            fontSize:16,
+            fontSize:30,
             color : 'black',
             padding:0,
+            //borderWidth:1
             
         }
     }

@@ -3,21 +3,21 @@
 const data = [
     {
       id: 0,
-      title: 'Sum of two numbers',
-      placeHolder :['Input first number for Summation','Input second number for Summation','Result']
+      title: '+',
+      placeHolder :['Input first number','Input second number','Result of Sum']
     },
     {  id: 1,
-      title: 'Multiply of two numbers',
-      placeHolder:['Input first number for Multiplication','Input second number for Multiplication','Result']
+      title: 'x',
+      placeHolder:['Input first number','Input second number','Result of Multiply']
     },
     {
       id: 2,
-      title: 'First N Prime numbers',
-      placeHolder:['Input positive number, first N prime numbers','Result','Result']
+      title: 'Prime',
+      placeHolder:['Input positive number (N)', '','Result of first N Prime numbers']
     },
     { id: 3,
-      title: 'First N Fibonacci sequence',
-      placeHolder:['Input positive number, first N Fibonacci sequence','Result','Result']
+      title: 'Fibo',
+      placeHolder:['Input positive number (N)', '','Result of first N Fibonacci numbers']
 
     }
   
