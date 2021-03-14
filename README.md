@@ -1,4 +1,4 @@
-[![GitHub last commit](https://img.shields.io/github/last-commit/fandystar/?logo=github)](https://github.com/fandystar/)  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fandystar technical test-NodeJs?logo=github&color=teal)](https://github.com/fandystar/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/fandystar/FE-Okadoc-RN?logo=github)](https://github.com/fandystar/)  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fandystar/FE-Okadoc-RN?logo=github&color=teal)](https://github.com/fandystar/)
 
 # About Problem
 
@@ -58,7 +58,7 @@ Please go to `screenshots/running` folder to find screenshots of running **Basic
 
 
 
-## 2. List of function
+## 2. List of functions
 
 - **sum {firstNumber,secondNumber}**: `sum(2,3)` will add up 2 + 3 to be 5
 
@@ -73,15 +73,12 @@ Please go to `screenshots/running` folder to find screenshots of running **Basic
 
 Tests are written using [Jest](https://jestjs.io) and can be run using `npm test`
 
-- `npm test` : Run unit tests only (Tests for functions only)
+- `npm test` : Run unit tests 
 
 #### Screenshots
 
 Please go to `screenshots/testing` folder to find screenshots of testing **Basic technical test**  
 
-#### Unit tests
-
-Unit tests are written for the functions sum,multiply,prime & Fibonacci
 
 #### Code Coverage
 
@@ -91,10 +88,10 @@ The current code coverage for the tests are following:
 
 | Type  | Percentage  |
 |---|---|
-| Statement  | 100  |
-| Branch  | 100  |
-| Function  | 100  |
-| Lines  | 100  |
+| Statement  | 84.93  |
+| Branch  | 57.63  |
+| Function  | 75  |
+| Lines  | 84.29  |
 
 - **Function coverage:** Has each function (or subroutine) in the program been called?
 - **Statement coverage:** Has each statement in the program been executed?
@@ -122,14 +119,16 @@ Open terminal
 
 1. `npm install` : Installs all the dependencies.
 
-2. `npm start` : Starts the console application in interactive mode.
+2. `npm start` : Starts the application.
 
 3. `npm test` : Runs unit tests.
+
+3. `react-native run-android` : Runs emulator.
 
 
 Feel free to reach out to me via email. Shoot your doubts at [fandyarayalin@gmail.com](mailto:fandyarayalin@gmail.com?Subject=Basic technical test).
 
-> Glad to share it here! **Show some ❤️ by starring [this](https://github.com/fandystar/) repository.**
+> Glad to share it here! **Show some ❤️ by starring [this](https://github.com/fandystar/FE-Okadoc-RN) repository.**
 
 ## Author
 
