@@ -1,4 +1,4 @@
-[![GitHub last commit](https://img.shields.io/github/last-commit/fandystar/ParkingLot-NodeJs?logo=github)](https://github.com/fandystar/)  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fandystar/ParkingLot-NodeJs?logo=github&color=teal)](https://github.com/fandystar/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/fandystar/Basic technical test-NodeJs?logo=github)](https://github.com/fandystar/)  [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fandystar/Basic technical test-NodeJs?logo=github&color=teal)](https://github.com/fandystar/)
 
 # About Problem
 
@@ -46,7 +46,7 @@ An interactive terminal based shell where commands can be typed in to perform di
 
 #### Screenshots
 
-Please go to `screenshots/running` folder to find screenshots of running **Parking Lot** 
+Please go to `screenshots/running` folder to find screenshots of running **Basic technical test** 
 
 #### Explained
 
@@ -59,8 +59,6 @@ Please go to `screenshots/running` folder to find screenshots of running **Parki
 
 
 ## 2. List of function
-
-Users can interact with the Parking Lot system via a following simple set of commands which produce a specific output:
 
 - **sum {firstNumber,secondNumber}**: `sum(2,3)` will add up 2 + 3 to be 5
 
@@ -75,7 +73,7 @@ Users can interact with the Parking Lot system via a following simple set of com
 
 Tests are written using [Jest](https://jestjs.io) and can be run using `npm test`
 
-- `npm test` : Run unit tests only (Tests for functions in Parking lot Class and parkingCharge function)
+- `npm test` : Run unit tests only (Tests for functions only)
 
 #### Screenshots
 
@@ -83,7 +81,7 @@ Please go to `screenshots/testing` folder to find screenshots of testing **Basic
 
 #### Unit tests
 
-Unit tests are written for the methods of `ParkingLot` class and `parkingCharge` function
+Unit tests are written for the functions sum,multiply,prime & Fibonacci
 
 #### Code Coverage
 
@@ -129,7 +127,7 @@ Open terminal
 3. `npm test` : Runs unit tests.
 
 
-Feel free to reach out to me via email. Shoot your doubts at [fandyarayalin@gmail.com](mailto:fandyarayalin@gmail.com?Subject=ParkingLot).
+Feel free to reach out to me via email. Shoot your doubts at [fandyarayalin@gmail.com](mailto:fandyarayalin@gmail.com?Subject=Basic technical test).
 
 > Glad to share it here! **Show some ❤️ by starring [this](https://github.com/fandystar/) repository.**
 
