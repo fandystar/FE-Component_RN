@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { View} from "react-native";
+import { View,TextInput,ScrollView} from "react-native";
 import {data} from './constans/general'                          // import data ( title & placeholder description )
 import FlatListComponent from './components/FlatListComponent'
 import TextInputComponent from './components/TextInputComponent'  
 import {prime,fibonacci,sum,multiply} from './utils/helper'      // import operation function
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen'
 
 const {log}=console
 const HomeScreen = (props) => {
@@ -31,6 +32,7 @@ const HomeScreen = (props) => {
                 </TextInputComponent>
                 
                 <TextInputComponent
+                    name={input=> text = input}
                     placeholder={id!==''? data[id].placeHolder[0] : 'Input'} // textinput1 ( first number or first N prime or N fibonacci ) setting
                     width={'100%'}
                     height={60}
@@ -47,6 +49,7 @@ const HomeScreen = (props) => {
                     />
                 
                 <TextInputComponent 
+                    //name={input=> text = input}
                     placeholder={id!==''?  data[id].placeHolder[1] : 'Input'} // textinput2 ( second number ) setting
                     width={(id===2 || id===3) ? 0 : '100%'}                   //  width & height visibility of  textinput2 ( the second number ) = make textinput2 disappear
                     maxLength={20}                                            // maximal 20 digits
@@ -61,6 +64,7 @@ const HomeScreen = (props) => {
             
             <View style={{marginTop:'0%'}}>                     
                  <FlatListComponent data={data} callback={(id)=>{    //  render operation button ( sum ,multiply,prime & fibonacci)
+                        text.clear()                                // clear text first number / n prime or fbonacci
                         setinput1(0)
                         setinput2(0)
                         setId(id)
