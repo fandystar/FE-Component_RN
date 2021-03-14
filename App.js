@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { View,TextInput,ScrollView} from "react-native";
+import { View,ScrollView} from "react-native";
 import {data} from './constans/general'                          // import data ( title & placeholder description )
 import FlatListComponent from './components/FlatListComponent'
 import TextInputComponent from './components/TextInputComponent'  
 import {prime,fibonacci,sum,multiply} from './utils/helper'      // import operation function
-import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen'
+//import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen'
 
 const {log}=console
 const HomeScreen = (props) => {

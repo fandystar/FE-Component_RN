@@ -1,8 +1,7 @@
 
-import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
-import React, { useState } from "react";
+//import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+import React from "react";
 import { View, TextInput ,StyleSheet} from 'react-native'
-import { baseProps } from "react-native-gesture-handler/lib/typescript/handlers/gestureHandlers";
 
 
 const {log}=console

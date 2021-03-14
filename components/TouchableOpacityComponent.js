@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { View, Text,TouchableOpacity,StyleSheet } from 'react-native'
-import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+//import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 const TouchableOpacityComponent = (props) => {
     let backgroundColor = props.backgroundColor || '#34ace0'
@@ -29,7 +29,7 @@ const styles = StyleSheet.create(
          },
         cssText : {
             color :'white',
-            fontSize: 40,
+            fontSize: 30,
             textAlign:'center'
         }               
     }

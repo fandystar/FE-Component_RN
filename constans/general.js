@@ -16,7 +16,7 @@ const data = [
       placeHolder:['Input positive number (N)', '','Result of first N prime numbers']
     },
     { id: 3,
-      title: 'Fibo',
+      title: 'Fibonacci',
       placeHolder:['Input positive number (N)', '','Result of first N Fibonacci numbers']
 
     }
