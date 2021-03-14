@@ -127,7 +127,7 @@ Go to `coverage/lcov-report` folder and open `index.html`.
 
 
 
-## 5. Cheat Sheet
+## 5. Cheat Sheet 
 
 Navigates to the root folder,
 
