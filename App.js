@@ -21,7 +21,7 @@ const HomeScreen = (props) => {
                     placeholder={id!==null? data[id].placeHolder[1] : 'Output'} //  textinput3 ( result ) setting
                     editable={false}
                     backgroundColor={'#F8EFBA'} >
-                 { (id===0 && input) ? sum(input) : (id===1 && input) ? multiply(input) : (id===2 && input) ? prime(input) :(id===3 && input) ?  fibonacci(input) : id!==null ? data[id].placeHolder[1]:'Output'}
+                 { (id===0 && input) ? sum(input) : (id===1 && input) ? multiply(input) : (id===2 && input) ? (input!=='1'?prime(input).replace(/,/g,', '):prime(input)) :(id===3 && input) ?  fibonacci(input) : id!==null ? data[id].placeHolder[1]:'Output'}
                </TextInputComponent>
                 
                 <TextInputComponent

@@ -23,21 +23,34 @@ The current code coverage for the tests are following:
 | Function  | 75  |
 | Lines  | 84.29  |
 
+
+ PASS  __tests__/function_test/prime.test.js
+ PASS  __tests__/App-test.js
+ PASS  function_test/sum.test.js
+ PASS  function_test/fibonacci.test.js
+ PASS  function_test/prime.test.js
+ PASS  function_test/multiply.test.js
 -------------------------------|---------|----------|---------|---------|-------------------
 File                           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------------------|---------|----------|---------|---------|-------------------
-All files                      |   84.93 |    57.63 |      75 |   84.29 |                   
- FE_Okadoc_RN                  |   43.75 |    51.06 |      40 |   43.75 |                   
-  App.js                       |   43.75 |    51.06 |      40 |   43.75 | 42-70             
- FE_Okadoc_RN/components       |   89.47 |       50 |   83.33 |   89.47 |                   
+All files                      |   88.31 |    53.19 |      80 |   88.16 |                   
+ FE_Okadoc_RN                  |   46.15 |    42.42 |      50 |   46.15 |                   
+  App.js                       |   46.15 |    42.42 |      50 |   46.15 | 33-47             
+ FE_Okadoc_RN/components       |    87.5 |       50 |   83.33 |    87.5 |                   
   FlatListComponent.js         |      75 |       50 |      75 |      75 | 21-22             
   TextInputComponent.js        |     100 |      100 |     100 |     100 |                   
   TouchableOpacityComponent.js |     100 |       50 |     100 |     100 | 7                 
  FE_Okadoc_RN/constans         |     100 |      100 |     100 |     100 |                   
   general.js                   |     100 |      100 |     100 |     100 |                   
- FE_Okadoc_RN/utils            |     100 |      100 |     100 |     100 |                   
-  helper.js                    |     100 |      100 |     100 |     100 |                   
+ FE_Okadoc_RN/utils            |     100 |       90 |     100 |     100 |                   
+  helper.js                    |     100 |       90 |     100 |     100 | 60                
 -------------------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 6 passed, 6 total
+Tests:       18 passed, 18 total
+Snapshots:   0 total
+Time:        2.148 s
+Ran all test suites.
 
 - **Function coverage:** Has each function (or subroutine) in the program been called?
 - **Statement coverage:** Has each statement in the program been executed?

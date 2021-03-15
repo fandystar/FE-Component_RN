@@ -32,8 +32,8 @@ const fibonacci=input=>{     // first n Fibonacci sequence
           fn_2=0
           fn_1=1
           fn= 1
-          return temp.slice(1) }
-    string1 = string1 + ", " + (fn_2)
+          return temp.slice(1) }   // return in string ( O(f(constanta)) big O )
+    string1 = string1 + ", " + (fn_2)    
     fn=fn_1+fn_2 
     fn_2= fn_1
     fn_1=fn
@@ -53,13 +53,17 @@ const isPrime = (x) => {
 const prime = input => {        //  first n pirme numbers
         //if (n<=0) {throw new Error('please input the positive number ( minimun is 1 )')}
       let n=+input
-      const arr = []
+      let string =''
       let i = 2
-      while(arr.length < n){
-        isPrime(i) && arr.push(i)
+      let count=0
+      while(count < n){
+        if (isPrime(i)) {
+          count=count+1
+          count===1? string=i : string=string +','+i
+        }
         i = i === 2 ? i+1 : i+2
       }
-     return arr
- }
+      return string   // return in string ( O(f(constanta)) big O )
+}
  
  module.exports={fibonacci,prime,sum,multiply,isPrime}
