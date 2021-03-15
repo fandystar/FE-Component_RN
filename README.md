@@ -132,7 +132,6 @@ Ran all test suites.
 - **Branch coverage:** Has each branch (also called DD-path) of each control structure (such as in if and case statements) been executed?
 - **Line coverage:** Has each executable line in the source file been executed?
 
-
 **NOTE:** Code coverage is added to the jest tests (`npm test`) **((https://jestjs.io/)**.
 You can see the code-coverage report in terminal as well as detailed HTML report inside `coverage/` folder.
 Go to `coverage/lcov-report` folder and open `index.html`.
