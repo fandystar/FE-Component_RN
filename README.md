@@ -20,6 +20,8 @@
 
 ## Basic technical test 
 
+![fibonacci](https://user-images.githubusercontent.com/67256405/111134764-83626700-85ae-11eb-9568-23c1c0607fdf.png)
+
 To **design a solution** with ability to :
 
 - Sum two numbers
