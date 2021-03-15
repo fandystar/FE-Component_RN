@@ -33,7 +33,7 @@ const fibonacci=input=>{     // first n Fibonacci sequence
           fn_1=1
           fn= 1
           return temp.slice(1) }
-    string1 = string1 + "," + (fn_2)
+    string1 = string1 + ", " + (fn_2)
     fn=fn_1+fn_2 
     fn_2= fn_1
     fn_1=fn
@@ -59,7 +59,7 @@ const prime = input => {        //  first n pirme numbers
         isPrime(i) && arr.push(i)
         i = i === 2 ? i+1 : i+2
       }
-      return arr.join(',')
+      return arr.join(', ')
  }
  
  module.exports={fibonacci,prime,sum,multiply,isPrime}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1615799774346" clover="3.2.0">
-  <project timestamp="1615799774346" name="All files">
+<coverage generated="1615800873828" clover="3.2.0">
+  <project timestamp="1615800873828" name="All files">
     <metrics statements="73" coveredstatements="64" conditionals="43" coveredconditionals="24" methods="15" coveredmethods="12" elements="131" coveredelements="100" complexity="0" loc="73" ncloc="73" packages="4" files="6" classes="6"/>
     <package name="FE_Okadoc_RN">
       <metrics statements="13" coveredstatements="6" conditionals="31" coveredconditionals="14" methods="4" coveredmethods="2"/>

@@ -11,7 +11,7 @@ const HomeScreen = (props) => {
     
     const [id,setId] = useState(null)
     const [input,setInput] = useState(0)  // set value of first number & secondNumber or result
-   // const [output,setOutput] = useState(0)  // set value of second number
+   
   
     return (
         <View  style={{margin:'5%'}}> 
@@ -26,7 +26,7 @@ const HomeScreen = (props) => {
                 
                 <TextInputComponent
                     name={value=> text = value}
-                    placeholder={id!==null? data[id].placeHolder[0] : 'Input'} // textinput1 ( first number or first N prime or N fibonacci ) setting
+                    placeholder={id!==null? data[id].placeHolder[0] : 'Input'} // 
                     maxLength={(id===2 || id===3) ? 2 : 20}                 // maximal 20 character except 2 digis for Prime & Fibonacci
                     backgroundColor ={'#dff9fb'}  
                     onChangeText={(value)=>{
