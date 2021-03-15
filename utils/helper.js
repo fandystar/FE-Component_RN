@@ -1,15 +1,30 @@
 
+const {log} =console
 
-const sum=(x,y)=>x+y       // sum of 2 numbers
+const sum=(input)=>{                   // sum of 2 numbers
+    
+      let firstNumber=+input.split(',')[0]
+      let secondNumber=+input.split(',')[1]
+      return (firstNumber+secondNumber)    
+    
+}     
 
-const multiply=(x,y)=>x*y  // multiply of 2 numbers
+const multiply=(input)=>{                // multiply of 2 numbers
+
+   
+    let firstNumber=+input.split(',')[0]
+    let secondNumber=+input.split(',')[1]
+    return (firstNumber*secondNumber)    
+
+}       
 
 let fn_2=0
 let fn_1=1
 let fn= 1
 let string1 = '' 
-const fibonacci=(n)=>{     // first n Fibonacci sequence
+const fibonacci=input=>{     // first n Fibonacci sequence
     //if (n<=0) {throw new Error('please input the positive number ( minimun is 1 )')}
+    let n=+input
     let temp= ''
     if (n==0) { 
           temp=string1
@@ -26,6 +41,7 @@ const fibonacci=(n)=>{     // first n Fibonacci sequence
   }
   
 const isPrime = (x) => {
+  
     for(let i = 2; i <= x/2; i++){
       if(x % i === 0){
           return false
@@ -34,8 +50,9 @@ const isPrime = (x) => {
     return true
 }  
 
-const prime = n => {        //  first n pirme numbers
+const prime = input => {        //  first n pirme numbers
         //if (n<=0) {throw new Error('please input the positive number ( minimun is 1 )')}
+      let n=+input
       const arr = []
       let i = 2
       while(arr.length < n){

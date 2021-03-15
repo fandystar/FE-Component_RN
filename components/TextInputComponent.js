@@ -8,10 +8,6 @@ const {log}=console
 
 const TextInputComponent = (props) => {
     //let backgroundColor
-    let width=props.width 
-    let height=props.height 
-    let backgroundColor=props.backgroundColor
- 
     return (
         <View > 
             <TextInput 
@@ -19,7 +15,7 @@ const TextInputComponent = (props) => {
                 ref={props.name}
                 onChangeText={props.onChangeText}
                 keyboardType='numeric'
-                style = {[styles.textInput,{height,width,backgroundColor}]}
+                style = {[styles.textInput]}
                
                 
             />
@@ -29,10 +25,14 @@ const TextInputComponent = (props) => {
 const styles = StyleSheet.create (
     {
         textInput : {
-            fontSize:30,
+            fontSize:25,
             color : 'black',
             padding:0,
-            //borderWidth:1
+            height:60,
+            borderWidth:1,
+            marginVertical:0.5,
+            padding:10
+        
             
         }
     }
