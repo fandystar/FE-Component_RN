@@ -18,10 +18,10 @@ The current code coverage for the tests are following:
 
 | Type  | Percentage  |
 |---|---|
-| Statement  | 84.93  |
-| Branch  | 57.63  |
-| Function  | 75  |
-| Lines  | 84.29  |
+| Statement  | 88.31  |
+| Branch  | 53.19  |
+| Function  | 80  |
+| Lines  | 88.16  |
 
 
  PASS  __tests__/function_test/prime.test.js
