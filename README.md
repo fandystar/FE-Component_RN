@@ -15,12 +15,10 @@
         Input : 4
         Output : 0, 1, 1, 2 
 
-
-
-
 ## Basic technical test 
 
-![fibonacci](https://user-images.githubusercontent.com/67256405/111134764-83626700-85ae-11eb-9568-23c1c0607fdf.png)
+![Screenshot from 2021-03-15 18-43-08](https://user-images.githubusercontent.com/67256405/111148571-5e75f000-85be-11eb-956a-087312eb07b4.png)
+![Screenshot from 2021-03-15 18-43-08](https://user-images.githubusercontent.com/67256405/111148573-5f0e8680-85be-11eb-970e-5b9fa355dc6e.png)
 
 To **design a solution** with ability to :
 
