@@ -59,8 +59,7 @@ const prime = input => {        //  first n pirme numbers
         isPrime(i) && arr.push(i)
         i = i === 2 ? i+1 : i+2
       }
-      
-      return arr.join(', ')
+     return arr
  }
  
  module.exports={fibonacci,prime,sum,multiply,isPrime}
